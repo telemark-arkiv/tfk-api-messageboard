@@ -1,0 +1,5 @@
+db.messages.ensureIndex({'subject': 'text', 'body': 'text'}, {'default_language': 'nb'})
+
+db.messages.ensureIndex({'tags': 1})
+
+db.messages.ensureIndex({'createdByUid': 1})
